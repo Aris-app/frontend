@@ -1,5 +1,5 @@
 import React from 'react';
-import { MessageCircle, Instagram, Music, MessageSquare, Send, Facebook } from 'lucide-react';
+import { MessageCircle, Instagram, Music, Send, Facebook } from 'lucide-react';
 
 const PlatformSelector = () => {
   const platforms = [
@@ -20,7 +20,7 @@ const PlatformSelector = () => {
     {
       name: 'WhatsApp',
       description: 'Reach 2B+ users with the most popular messaging app in the world.',
-      icon: <MessageSquare className="w-8 h-8 text-green-500" />,
+      icon: <MessageCircle className="w-8 h-8 text-green-500" />,
       bgColor: 'bg-white',
       borderColor: 'border-yellow-400',
       highlighted: true
