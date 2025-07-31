@@ -16,8 +16,7 @@ export default function LoginPage() {
     if (email && !showPasswordField) {
       setShowPasswordField(true);
     } else if (email && password) {
-      // Handle login logic here
-      console.log('Login attempt:', { email, password });
+     
     }
   };
 
